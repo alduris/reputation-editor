@@ -1,7 +1,9 @@
-Use this template on GitHub or just [download the code](https://github.com/alduris/TemplateMod/archive/refs/heads/master.zip), whichever is easiest.
+# Reputation Editor for Rain World
+Adds a command via [Dev Console](https://github.com/SlimeCubed/DevConsole) to view and modify reputation.
 
-Rename `src/TestMod.csproj`, then edit `mod/modinfo.json` and `src/Plugin.cs` to customize your mod.
-
-See [the modding wiki](https://rainworldmodding.miraheze.org/wiki/Downpour_Reference/Mod_Directories) for `modinfo.json` documentation.
-
-To update your mod to work in future updates, replace `PUBLIC-Assembly-CSharp.dll` and `HOOKS-Assembly-CSharp.dll` with the equivalents found in `Rain World/BepInEx/utils` and `Rain World/BepInEx/plugins` as well as `Assembly-CSharp-firstpass.dll` found in `Rain World/RainWorld_Data/Managed`.
+## Usage
+While the console is open, use the `reputation` command with the following parameters:
+- Mode: either `get` or `set`
+- Community: any in-game creature community, such as Scavengers.
+- Region (optional): the region acronym. If left blank, uses global reputation.
+- Value (required if `set` mode): the value to change it to, between -100 and 100.
