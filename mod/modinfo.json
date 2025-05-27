@@ -1,11 +1,11 @@
 ﻿{
-  "id": "testmod",
-  "name": "Test Mod",
-  "version": "0.1.0",
-  "authors": "Author",
-  "description": "Put a neat description here",
-  "tags": [],
-  "requirements": [],
-  "requirements_names": [],
+  "id": "alduris.reputation",
+  "name": "Reputation Editor",
+  "version": "1.0",
+  "authors": "Alduris",
+  "description": "Adds a `reputation` command in Dev Console, which can view and edit reputation",
+  "tags": ["Tools"],
+  "requirements": ["slime-cubed.devconsole"],
+  "requirements_names": ["Dev Console"],
   "checksum_override_version": false
 }
